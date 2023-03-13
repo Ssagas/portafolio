@@ -1,0 +1,9 @@
+:root{
+    --raleway: "raleway", sans-serif;
+    --fuente-titulos:#464646;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
