@@ -1,7 +1,7 @@
 .proyectos{
     
-overflow: hidden;
-    height: 65rem;
+    overflow: hidden;
+    height: 70rem;
     display: flex;
     flex-direction: column;
     align-items: center;
