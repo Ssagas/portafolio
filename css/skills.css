@@ -1,3 +1,5 @@
+/*-------------------MOVIL-------------------*/
+
 .tarjetas-container {
   display: flex;
   flex-direction: column;
@@ -18,11 +20,10 @@
 }
 
 .tarjetas-group{
-    display:flex;
-    flex-wrap:wrap;
-    gap:32px;
-    align-content: space-between;
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
 }
 .tarjeta-items{
     width:150px;
@@ -54,3 +55,19 @@
     color: var(--fuente-titulos);
 }
 
+/*-------------------TABLET-------------------*/
+@media screen and (min-width: 768px) {
+    
+    .tarjetas-container {
+        height: 390px;
+     }
+     
+     .tarjeta-items {
+         width: 224px;
+         height: 118px;
+         
+     }
+
+     
+         
+}

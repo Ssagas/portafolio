@@ -1,0 +1,26 @@
+.pie{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 7.375rem;
+    /*width: 22.5rem;*/
+    width: 100%;
+    gap: 0.16rem;
+    background-color: white;
+    
+  }
+  
+  .desarrollador{
+    font: var(--raleway);
+    font-size: 1rem;
+    font-weight: 400px;;
+  }
+  
+  .year{
+    font: var(--raleway);
+    font-size: 1rem;
+    font-weight: 400px;;
+  }
+  

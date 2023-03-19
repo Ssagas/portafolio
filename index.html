@@ -9,13 +9,13 @@
     <script
       src="https://kit.fontawesome.com/f3fa336c01.js"
       crossorigin="anonymous"
-    ></script>   
+    ></script>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-   
+
     <link href="css/reset.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="./css/header.css" />
@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="./css/footer/footer-form.css" />
     <link rel="stylesheet" href="./css/footer/footer-titulo.css" />
     <link rel="stylesheet" href="./css/footer/footer.css" />
+    <link rel="stylesheet" href="./css/footer/btn-form.css" />
+    <link rel="stylesheet" href="./css/footer/form-span.css" />
+    <link rel="stylesheet" href="./css/footer/label.css" />
+    <link rel="stylesheet" href="./css/footer/pie.css" />
   </head>
   <body>
     <div class="contenedor">
@@ -61,19 +65,21 @@
               Hola, mi nombre es Sonia Sagastume y construyo paginas web
             </h2>
             <p class="hero__container__texto">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              possimus, suscipit vel nesciunt tempore mollitia incidunt, quaerat
-              molestias blanditiis exercitationem consectetur similique facere
-              ea deleniti eius quisquam hic, architecto reprehenderit?
+              Ingeniera Industrial de la USAC, actualmente participando en el
+              proyecto Oracle ONE en Alura Latam.
             </p>
 
             <nav class="hero__container__listado">
               <ul>
                 <li class="listado-item">
-                  <a href="https://github.com/Ssagas">Github<img src="img/arrow1x.png" alt="" /></a>
+                  <a href="https://github.com/Ssagas"
+                    >Github<img src="img/arrow1x.png" alt=""
+                  /></a>
                 </li>
                 <li class="listado-item">
-                  <a href="https://www.linkedin.com/in/sonia-sagastume/">Linkedin<img src="img/arrow1x.png" alt="" /></a>
+                  <a href="https://www.linkedin.com/in/sonia-sagastume/"
+                    >Linkedin<img src="img/arrow1x.png" alt=""
+                  /></a>
                 </li>
                 <li class="listado-item">
                   <a href="#">Instagram<img src="img/arrow1x.png" alt="" /></a>
@@ -172,30 +178,44 @@
             <div class="formacion__titulo"><h2>Formación académica</h2></div>
             <div class="formacion__container">
               <div class="formacion__container__items">
-                <img
-                  class="formacion__container__items__img"
-                  src="img/logo_usac2018.svg"
-                  alt=""
-                />
-
-                <p class="formacion__container__items__parrafo">
-                  Ingeniería Industrial
-                </p>
+                <div class="item__img">
+                  <img
+                    class="formacion__container__items__img"
+                    src="img/logo_usac2018.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item__texto">
+                  <p class="formacion__container__items__parrafo">
+                    Ingeniería Industrial
+                  </p>
+                </div>
+              
               </div>
+
               <div class="formacion__container__items">
+                <div class="item__img">
                 <img
                   class="formacion__container__items__img"
                   src="img/logo-alura.png"
                   alt=""
                 />
+                </div>
+                <div class="item__texto">
                 <p class="formacion__container__items__parrafo">Front End</p>
-                <p class="formacion__container__items__parrafo">
+                <p class="formacion__container__items__parrafo"></p>
                   En curso - Alura
                 </p>
+                </div>
+                
               </div>
               <div class="formacion__container__items">
-                <img class="formacion__container__items__img" src="" alt="" />
-                <p class="formacion__container__items__parrafo"></p>
+                <div class="item__img">
+                  <img class="formacion__container__items__img" src="" alt="" />
+                </div>
+                <div class="item__texto">
+                  <p class="formacion__container__items__parrafo"></p>
+                </div>
               </div>
             </div>
           </div>
@@ -337,7 +357,8 @@
                     <span class="form__div__label__span">E-mail</span>
                     <input
                       type="email"
-                      class="footer__container__contact__form__input" autocomplete="off"
+                      class="footer__container__contact__form__input"
+                      autocomplete="off"
                     />
                   </label>
                 </div>
@@ -377,6 +398,6 @@
       </footer>
     </div>
 
-    <script type="module"  src="./js/script.js"></script>
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>

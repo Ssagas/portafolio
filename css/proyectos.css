@@ -97,3 +97,35 @@
     background-color: #2980b9;
     cursor: pointer;
 }
+
+
+@media screen and (min-width: 768px) {
+  
+.proyectos {
+    
+    height: 105rem;
+ 
+}
+
+.proyectos__items__item {
+   
+    align-items: flex-start;
+    width: 704px;
+    height: 500px;
+   
+}
+
+
+.proyectos__items__item__imagen {
+  
+    height: 320px;
+    width: 704px;
+}
+
+.proyectos__items__item__imagen1 {
+    width: 704px;
+    height: 320px;
+}
+  
+}
+
